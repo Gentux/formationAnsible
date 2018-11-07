@@ -1,0 +1,6 @@
+---
+
+- name: Mon premier playbook
+  hosts: all
+  roles:
+    - create-file
