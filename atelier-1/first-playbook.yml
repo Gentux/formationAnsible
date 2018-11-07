@@ -1,0 +1,14 @@
+---
+
+- name: Mon premier playbook
+  hosts: all
+  tasks:
+
+    - name: Creation de fichier dans /tmp
+      file:
+        path: /tmp/fichierDeTest.txt
+        state: touch
+
+    - name: Display the config
+      debug:
+        msg: "Un message de test"
