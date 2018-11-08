@@ -1,9 +1,9 @@
-# Premier atelier
+# Deuxième atelier
 
 Les concepts couvert :
 
-* Le fichier `inventory`
-* Un premier playbook
+* La structure Ansible des rôles
+* Appel d'un rôle dans notre playbook
 
 
 ## Préparation
