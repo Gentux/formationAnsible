@@ -1,7 +1,7 @@
 ---
 - name: Creation de fichier dans /tmp
   file:
-    path: /tmp/fichierDeTest.txt
+    path: "/tmp/{{ nomDuFichier }}.txt"
     state: touch
 
 - name: Display the config
