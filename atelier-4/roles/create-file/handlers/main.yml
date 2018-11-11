@@ -1,0 +1,6 @@
+---
+- name: Changer les permissions
+  file:
+    path: "/tmp/{{ nomDuFichier }}.txt"
+    mode: 777
+  listen: "fichier"
