@@ -18,8 +18,4 @@
 
 # Atelier 4
 
-* Création de variables par défaut dans notre rôle
-* Utilisation des variables qu'on a définit
-* Surcharge des variables avec les *host_vars*
-* Surcharge des variables avec les *group_vars*
-* Surcharge des variables avec les *external vars*
+* Notification et Handlers
