@@ -1,2 +1,4 @@
-[server]
+# Le titre `servers` deviens `group` dans ansible
+[servers]
+# Le nom de machine `lh` correspond à la notion `host` dans ansible
 lh ansible_host=127.0.0.1
